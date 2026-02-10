@@ -283,7 +283,7 @@ erreur_pct = (residus / y_test) * 100
 # Créer le DataFrame
 resultats = X_test.copy()  # inclure toutes les features du test
 resultats['Prix_reel'] = y_test
-resultats['Prix_pred'] = y_preds
+resultats['Prix_pred'] = y_pred
 resultats['Residus'] = residus
 resultats['Erreur_pct'] = erreur_pct
 
